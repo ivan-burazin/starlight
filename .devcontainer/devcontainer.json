@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  
+  "remoteUser": "vscode",
   "postCreateCommand": "pnpm install",
   "waitFor": "postCreateCommand",
   "customizations": {
