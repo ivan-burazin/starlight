@@ -3,6 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "runArgs": ["--user=sudo"],
   "postCreateCommand": "pnpm install",
   "waitFor": "postCreateCommand",
   "customizations": {
