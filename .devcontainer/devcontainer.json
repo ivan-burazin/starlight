@@ -1,9 +1,12 @@
 {
   "name": "Contribute to Starlight",
   "build": {
-    "dockerfile": "Dockerfile"
+  
+ "dockerfile": "Dockerfile"
   },
-  "remoteUser": "vscode",
+  
+  "remoteUser": "root",
+  
   "postCreateCommand": "pnpm install",
   "waitFor": "postCreateCommand",
   "customizations": {
