@@ -19,3 +19,4 @@ __coverage__/
 
 # Vercel output
 .vercel
+.pnpm-store/
